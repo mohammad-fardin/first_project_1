@@ -1,0 +1,83 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+Continer{
+  margin: auto;
+  width: 50%;
+  border: 3px solid rgb(0, 0, 0);
+  padding: 10px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #555555;
+  border-radius: 10px;
+}
+.A{
+    align-items: end;
+    justify-content: end;
+    float: right;
+    margin: 10px;
+    
+}
+.B{
+  
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.Season-Collection{
+  display: flex;
+  justify-content: center;
+  gap: 122px;
+}
+.Collections img{
+  border-radius: 10px;
+}
+.Collections h3{
+  margin-left: 45%;
+  
+}
+.Collections button{
+  margin-left: 45%;
+  padding: 8px 20px;
+  background: #f5f5f5;
+  border:2px solid;
+  border-radius: 20px;
+  cursor: pointer;
+  
+}
+.Collections p{
+  margin-left: 40%;
+}
+.p{
+  text-align: center;
+}
+.button:hover{
+  background-color: antiquewhite;
+  border-color: azure;
+}
+
+
